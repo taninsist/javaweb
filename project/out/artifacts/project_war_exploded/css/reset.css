@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'Glyphicons Halflings';
+    src: url('../fonts/glyphicons-halflings-regular.eot');
+    src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul li{
+    list-style: none;
+}
+a{
+    color: #000;
+    text-decoration: none;
+}
+h2,h3,h4,h5,h6{
+    margin: 0;
+}
+
+
+/* 后台管理基础样式 start */
+.container_default{
+    width: 100%;
+    height: 100%;
+}
+
+.container_default aside{
+    height: 100%;
+    width: 200px;
+    background-color: #222d32;
+    float: left;
+}
+
+.container_default aside .title{
+    height: 50px;
+    background:#fff;
+}
+.container_default aside .title h2{
+    line-height: 50px;
+    font-size: 20px;
+}
+.container_default aside p{
+    color: #4b646f;
+    background: #1a2226;
+    margin: 0;
+    line-height: 30px;
+    text-indent: 2em;
+}
+
+.container_default aside .nav li{
+    color: #b8c7ce;
+    line-height: 40px;
+
+    text-indent: 2em;
+}
+.container_default aside .nav li.active{
+    color: #fff;
+}
+
+.container_default aside .nav li >a{
+    display: inline;
+    color: inherit;
+}
+.container_default aside .nav li:hover{
+    background: rgb(83, 81, 81);
+}
+.container_default aside .nav li >a:hover{
+    background-color:inherit;
+}
+.container_default .left{
+    width: calc(100% - 200px);
+    float:right;
+    height: 100%;
+    background: black;
+}
+
+.container_default .left header{
+    height: 50px;
+    background-color: #605ca8;
+}
+
+.container_default .left main{
+    background: #fff;
+    width: 100%;
+    height: calc(100% - 50px);
+}
+
+/* 后台管理基础样式 end */

@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="project:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d04e2284-bab7-459b-ae5d-379fbf412472" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/project_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/druid_1_0_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/project_war_exploded/WEB-INF/classes/controller/DelUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/project_war_exploded/WEB-INF/classes/controller/FindUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/project_war_exploded/WEB-INF/classes/controller/FindUserByPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/project_war_exploded/WEB-INF/classes/controller/ImageServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/project_war_exploded/WEB-INF/classes/controller/LoginServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/project_war_exploded/WEB-INF/classes/controller/UserManage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/project_war_exploded/WEB-INF/classes/controller/addUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/project_war_exploded/WEB-INF/classes/controller/batchDelUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/project_war_exploded/WEB-INF/classes/controller/editUser/EditUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/project_war_exploded/WEB-INF/classes/controller/editUser/toEditUSer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/project_war_exploded/WEB-INF/classes/controller/orderCont/BatchDelOrder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/project_war_exploded/WEB-INF/classes/controller/orderCont/DelOrder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/project_war_exploded/WEB-INF/classes/controller/orderCont/EditOrder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/project_war_exploded/WEB-INF/classes/controller/orderCont/FindOrderByPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/project_war_exploded/WEB-INF/classes/controller/orderCont/ToEditOrder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/project_war_exploded/WEB-INF/classes/controller/productCont/DelProduct.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/project_war_exploded/WEB-INF/classes/controller/productCont/EditProduct.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/project_war_exploded/WEB-INF/classes/controller/productCont/FindProductByPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/project_war_exploded/WEB-INF/classes/controller/productCont/ProjectManage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/project_war_exploded/WEB-INF/classes/controller/productCont/ToEditProduct.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/project_war_exploded/WEB-INF/classes/controller/productCont/addProduct.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/project_war_exploded/WEB-INF/classes/controller/productCont/batchDelUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/project_war_exploded/WEB-INF/classes/controller/search.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/project_war_exploded/WEB-INF/classes/dao/IOrderDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/project_war_exploded/WEB-INF/classes/dao/IProjectDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/project_war_exploded/WEB-INF/classes/dao/IUserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/project_war_exploded/WEB-INF/classes/dao/impl/IOrderDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/project_war_exploded/WEB-INF/classes/dao/impl/IProductImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/project_war_exploded/WEB-INF/classes/dao/impl/IUserDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/project_war_exploded/WEB-INF/classes/domain/Order.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/project_war_exploded/WEB-INF/classes/domain/Product.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/project_war_exploded/WEB-INF/classes/domain/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/project_war_exploded/WEB-INF/classes/druid.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/project_war_exploded/WEB-INF/classes/service/IOrderService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/project_war_exploded/WEB-INF/classes/service/IProductService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/project_war_exploded/WEB-INF/classes/service/IUserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/project_war_exploded/WEB-INF/classes/service/impl/OrderService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/project_war_exploded/WEB-INF/classes/service/impl/ProductService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/project_war_exploded/WEB-INF/classes/service/impl/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/project_war_exploded/WEB-INF/classes/utils/JDBCUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/project_war_exploded/WEB-INF/lib/druid-1.0.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/project_war_exploded/WEB-INF/lib/jstl.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/project_war_exploded/WEB-INF/lib/mysql-connector-java-5.1.32-bin.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/project_war_exploded/WEB-INF/lib/standard.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/project_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/project_war_exploded/bootstrap-3.4.1-dist/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/project_war_exploded/bootstrap-3.4.1-dist/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/project_war_exploded/bootstrap-3.4.1-dist/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/project_war_exploded/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/project_war_exploded/css/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/project_war_exploded/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/project_war_exploded/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/project_war_exploded/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/project_war_exploded/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/project_war_exploded/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/project_war_exploded/img/ban.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/project_war_exploded/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/project_war_exploded/js/jquery-3.6.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/project_war_exploded/pages/edit-order.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/project_war_exploded/pages/edit-product.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/project_war_exploded/pages/edit-user.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/project_war_exploded/pages/error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/project_war_exploded/pages/home.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/project_war_exploded/pages/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/project_war_exploded/pages/order-manage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/project_war_exploded/pages/product-manage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/project_war_exploded/pages/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/project_war_exploded/pages/success.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/project_war_exploded/pages/user-manage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/project/controller/DelUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/project/controller/FindUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/project/controller/FindUserByPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/project/controller/ImageServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/project/controller/LoginServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/project/controller/UserManage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/project/controller/addUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/project/controller/batchDelUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/project/controller/editUser/EditUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/project/controller/editUser/toEditUSer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/project/controller/orderCont/BatchDelOrder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/project/controller/orderCont/DelOrder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/project/controller/orderCont/EditOrder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/project/controller/orderCont/FindOrderByPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/project/controller/orderCont/ToEditOrder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/project/controller/productCont/DelProduct.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/project/controller/productCont/EditProduct.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/project/controller/productCont/FindProductByPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/project/controller/productCont/ProjectManage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/project/controller/productCont/ToEditProduct.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/project/controller/productCont/addProduct.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/project/controller/productCont/batchDelUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/project/controller/search.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/project/dao/IOrderDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/project/dao/IProjectDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/project/dao/IUserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/project/dao/impl/IOrderDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/project/dao/impl/IProductImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/project/dao/impl/IUserDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/project/domain/Order.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/project/domain/Product.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/project/domain/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/project/druid.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/project/service/IOrderService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/project/service/IProductService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/project/service/IUserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/project/service/impl/OrderService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/project/service/impl/ProductService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/project/service/impl/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/project/utils/JDBCUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/DelUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/FindUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/FindUserByPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/ImageServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/UserManage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/addUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/batchDelUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/editUser/EditUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/editUser/toEditUSer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/orderCont/BatchDelOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/orderCont/DelOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/orderCont/EditOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/orderCont/FindOrderByPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/orderCont/ToEditOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/productCont/DelProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/productCont/EditProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/productCont/FindProductByPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/productCont/ProjectManage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/productCont/ToEditProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/productCont/addProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/productCont/batchDelUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/search.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dao/IOrderDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dao/IProjectDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dao/IUserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dao/impl/IOrderDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dao/impl/IProductImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dao/impl/IUserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/domain/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/domain/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/druid.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/IOrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/IProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/IUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/impl/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/impl/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/impl/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/JDBCUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/druid-1.0.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/jstl.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-5.1.32-bin.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/standard.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bootstrap-3.4.1-dist/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bootstrap-3.4.1-dist/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bootstrap-3.4.1-dist/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/ban.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/jquery-3.6.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/pages/edit-order.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/pages/edit-product.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/pages/edit-user.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/pages/error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/pages/home.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/pages/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/pages/order-manage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/pages/product-manage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/pages/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/pages/success.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/pages/user-manage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../qygldb.sql" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:\developmentAPP\intelliJ idea\ideaIU-2020.2.3.win\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="22ct6NM9PpIRtqgS5P0ZPkfuwpH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Desktop\jquery\project\web" />
+      <recent name="F:\Desktop\jquery\project\src" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="controller.productCont" />
+      <recent name="controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Desktop\jquery\project\web\img" />
+      <recent name="F:\Desktop\jquery\project\web\pages" />
+      <recent name="F:\Desktop\jquery\project\web\js" />
+      <recent name="F:\Desktop\jquery\project\web\WEB-INF" />
+      <recent name="F:\Desktop\jquery\project\web" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 8.0.52" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.52" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8084/" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="project:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_project_2" />
+        <option name="HTTP_PORT" value="8084" />
+        <option name="JNDI_PORT" value="1094" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="54777" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="project:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d04e2284-bab7-459b-ae5d-379fbf412472" name="Default Changelist" comment="" />
+      <created>1640148533469</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1640148533469</updated>
+      <workItem from="1640148534558" duration="41000" />
+      <workItem from="1640148600101" duration="181000" />
+      <workItem from="1640148812632" duration="2837000" />
+      <workItem from="1640153407342" duration="6194000" />
+      <workItem from="1640160753743" duration="2272000" />
+      <workItem from="1640167736255" duration="4812000" />
+      <workItem from="1640172722354" duration="6067000" />
+      <workItem from="1640185630037" duration="2746000" />
+      <workItem from="1640215876914" duration="894000" />
+      <workItem from="1640241920173" duration="2697000" />
+      <workItem from="1640252458422" duration="9060000" />
+      <workItem from="1640306142879" duration="9493000" />
+      <workItem from="1640321649772" duration="8470000" />
+      <workItem from="1640420586737" duration="1133000" />
+      <workItem from="1640422836895" duration="274000" />
+      <workItem from="1640520997418" duration="439000" />
+      <workItem from="1640564780672" duration="9568000" />
+      <workItem from="1640578472352" duration="10948000" />
+      <workItem from="1640665243144" duration="11872000" />
+      <workItem from="1640677520451" duration="3946000" />
+      <workItem from="1640684883996" duration="14255000" />
+      <workItem from="1640738210918" duration="10152000" />
+      <workItem from="1640752993550" duration="1132000" />
+      <workItem from="1640754149689" duration="3609000" />
+      <workItem from="1640868813200" duration="1007000" />
+      <workItem from="1640911601426" duration="7016000" />
+      <workItem from="1640923744210" duration="3406000" />
+      <workItem from="1640934755974" duration="1152000" />
+      <workItem from="1640938001986" duration="773000" />
+      <workItem from="1640938902262" duration="1759000" />
+      <workItem from="1641024587214" duration="2040000" />
+      <workItem from="1641280197585" duration="777000" />
+      <workItem from="1641281908766" duration="1226000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="726" y="349" key="#Notifications" timestamp="1640665283550">
+      <screen x="0" y="24" width="1920" height="1056" />
+    </state>
+    <state x="726" y="349" key="#Notifications/0.24.1920.1056@0.24.1920.1056" timestamp="1640665283550" />
+    <state x="425" y="85" width="1092" height="918" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1640325468061">
+      <screen x="0" y="24" width="1920" height="1056" />
+    </state>
+    <state x="425" y="85" width="1092" height="918" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.24.1920.1056@0.24.1920.1056" timestamp="1640325468061" />
+    <state x="2686" y="252" key="#com.intellij.ide.util.MemberChooser" timestamp="1640697547321">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2686" y="252" key="#com.intellij.ide.util.MemberChooser/0.24.1920.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1640697547321" />
+    <state x="766" y="270" key="#com.intellij.ide.util.MemberChooser/0.24.1920.1056@0.24.1920.1056" timestamp="1640668483822" />
+    <state x="614" y="185" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1640148544074">
+      <screen x="0" y="24" width="1920" height="1056" />
+    </state>
+    <state x="614" y="185" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.24.1920.1056@0.24.1920.1056" timestamp="1640148544074" />
+    <state x="1138" y="408" width="447" height="221" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1640588505969">
+      <screen x="0" y="24" width="1920" height="1056" />
+    </state>
+    <state x="1138" y="408" width="447" height="221" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.24.1920.1056@0.24.1920.1056" timestamp="1640588505969" />
+    <state x="972" y="345" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1640584607119">
+      <screen x="0" y="24" width="1920" height="1056" />
+    </state>
+    <state x="972" y="345" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.24.1920.1056@0.24.1920.1056" timestamp="1640584607119" />
+    <state x="864" y="287" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1640148838425">
+      <screen x="0" y="24" width="1920" height="1056" />
+    </state>
+    <state x="864" y="287" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.24.1920.1056@0.24.1920.1056" timestamp="1640148838425" />
+    <state width="432" height="456" key="DebuggerActiveHint" timestamp="1640262708936">
+      <screen x="0" y="24" width="1920" height="1056" />
+    </state>
+    <state width="432" height="466" key="DebuggerActiveHint/0.24.1920.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1640177744519" />
+    <state width="432" height="456" key="DebuggerActiveHint/0.24.1920.1056@0.24.1920.1056" timestamp="1640262708936" />
+    <state x="716" y="237" key="FileChooserDialogImpl" timestamp="1640755462134">
+      <screen x="0" y="24" width="1920" height="1056" />
+    </state>
+    <state x="716" y="237" key="FileChooserDialogImpl/0.24.1920.1056@0.24.1920.1056" timestamp="1640755462134" />
+    <state width="1332" height="143" key="GridCell.Tab.0.bottom" timestamp="1640941062500">
+      <screen x="0" y="24" width="1920" height="1056" />
+    </state>
+    <state width="1332" height="143" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1640939475860" />
+    <state width="1332" height="143" key="GridCell.Tab.0.bottom/0.24.1920.1056/1920.0.1920.1080@0.24.1920.1056" timestamp="1640941062500" />
+    <state width="1387" height="180" key="GridCell.Tab.0.bottom/0.24.1920.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1640699910933" />
+    <state width="1332" height="143" key="GridCell.Tab.0.bottom/0.24.1920.1056@0.24.1920.1056" timestamp="1640935919309" />
+    <state width="1332" height="143" key="GridCell.Tab.0.center" timestamp="1640941062500">
+      <screen x="0" y="24" width="1920" height="1056" />
+    </state>
+    <state width="1332" height="143" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1640939475860" />
+    <state width="1332" height="143" key="GridCell.Tab.0.center/0.24.1920.1056/1920.0.1920.1080@0.24.1920.1056" timestamp="1640941062500" />
+    <state width="1387" height="180" key="GridCell.Tab.0.center/0.24.1920.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1640699910933" />
+    <state width="1332" height="143" key="GridCell.Tab.0.center/0.24.1920.1056@0.24.1920.1056" timestamp="1640935919306" />
+    <state width="1332" height="143" key="GridCell.Tab.0.left" timestamp="1640941062500">
+      <screen x="0" y="24" width="1920" height="1056" />
+    </state>
+    <state width="1332" height="143" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1640939475860" />
+    <state width="1332" height="143" key="GridCell.Tab.0.left/0.24.1920.1056/1920.0.1920.1080@0.24.1920.1056" timestamp="1640941062500" />
+    <state width="1387" height="180" key="GridCell.Tab.0.left/0.24.1920.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1640699910933" />
+    <state width="1332" height="143" key="GridCell.Tab.0.left/0.24.1920.1056@0.24.1920.1056" timestamp="1640935919304" />
+    <state width="1332" height="143" key="GridCell.Tab.0.right" timestamp="1640941062500">
+      <screen x="0" y="24" width="1920" height="1056" />
+    </state>
+    <state width="1332" height="143" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1640939475860" />
+    <state width="1332" height="143" key="GridCell.Tab.0.right/0.24.1920.1056/1920.0.1920.1080@0.24.1920.1056" timestamp="1640941062500" />
+    <state width="1387" height="180" key="GridCell.Tab.0.right/0.24.1920.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1640699910933" />
+    <state width="1332" height="143" key="GridCell.Tab.0.right/0.24.1920.1056@0.24.1920.1056" timestamp="1640935919308" />
+    <state width="1332" height="143" key="GridCell.Tab.1.bottom" timestamp="1640941062500">
+      <screen x="0" y="24" width="1920" height="1056" />
+    </state>
+    <state width="1332" height="143" key="GridCell.Tab.1.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1640939475861" />
+    <state width="1332" height="143" key="GridCell.Tab.1.bottom/0.24.1920.1056/1920.0.1920.1080@0.24.1920.1056" timestamp="1640941062500" />
+    <state width="1387" height="180" key="GridCell.Tab.1.bottom/0.24.1920.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1640699910934" />
+    <state width="1332" height="143" key="GridCell.Tab.1.bottom/0.24.1920.1056@0.24.1920.1056" timestamp="1640935919313" />
+    <state width="1332" height="143" key="GridCell.Tab.1.center" timestamp="1640941062500">
+      <screen x="0" y="24" width="1920" height="1056" />
+    </state>
+    <state width="1332" height="143" key="GridCell.Tab.1.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1640939475861" />
+    <state width="1332" height="143" key="GridCell.Tab.1.center/0.24.1920.1056/1920.0.1920.1080@0.24.1920.1056" timestamp="1640941062500" />
+    <state width="1387" height="180" key="GridCell.Tab.1.center/0.24.1920.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1640699910934" />
+    <state width="1332" height="143" key="GridCell.Tab.1.center/0.24.1920.1056@0.24.1920.1056" timestamp="1640935919311" />
+    <state width="1332" height="143" key="GridCell.Tab.1.left" timestamp="1640941062500">
+      <screen x="0" y="24" width="1920" height="1056" />
+    </state>
+    <state width="1332" height="143" key="GridCell.Tab.1.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1640939475860" />
+    <state width="1332" height="143" key="GridCell.Tab.1.left/0.24.1920.1056/1920.0.1920.1080@0.24.1920.1056" timestamp="1640941062500" />
+    <state width="1387" height="180" key="GridCell.Tab.1.left/0.24.1920.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1640699910933" />
+    <state width="1332" height="143" key="GridCell.Tab.1.left/0.24.1920.1056@0.24.1920.1056" timestamp="1640935919310" />
+    <state width="1332" height="143" key="GridCell.Tab.1.right" timestamp="1640941062500">
+      <screen x="0" y="24" width="1920" height="1056" />
+    </state>
+    <state width="1332" height="143" key="GridCell.Tab.1.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1640939475861" />
+    <state width="1332" height="143" key="GridCell.Tab.1.right/0.24.1920.1056/1920.0.1920.1080@0.24.1920.1056" timestamp="1640941062500" />
+    <state width="1387" height="180" key="GridCell.Tab.1.right/0.24.1920.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1640699910934" />
+    <state width="1332" height="143" key="GridCell.Tab.1.right/0.24.1920.1056@0.24.1920.1056" timestamp="1640935919311" />
+    <state width="1332" height="143" key="GridCell.Tab.2.bottom" timestamp="1640941062501">
+      <screen x="0" y="24" width="1920" height="1056" />
+    </state>
+    <state width="1332" height="143" key="GridCell.Tab.2.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1640939475861" />
+    <state width="1332" height="143" key="GridCell.Tab.2.bottom/0.24.1920.1056/1920.0.1920.1080@0.24.1920.1056" timestamp="1640941062501" />
+    <state width="1387" height="180" key="GridCell.Tab.2.bottom/0.24.1920.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1640699910934" />
+    <state width="1332" height="143" key="GridCell.Tab.2.bottom/0.24.1920.1056@0.24.1920.1056" timestamp="1640935919314" />
+    <state width="1332" height="143" key="GridCell.Tab.2.center" timestamp="1640941062500">
+      <screen x="0" y="24" width="1920" height="1056" />
+    </state>
+    <state width="1332" height="143" key="GridCell.Tab.2.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1640939475861" />
+    <state width="1332" height="143" key="GridCell.Tab.2.center/0.24.1920.1056/1920.0.1920.1080@0.24.1920.1056" timestamp="1640941062500" />
+    <state width="1387" height="180" key="GridCell.Tab.2.center/0.24.1920.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1640699910934" />
+    <state width="1332" height="143" key="GridCell.Tab.2.center/0.24.1920.1056@0.24.1920.1056" timestamp="1640935919313" />
+    <state width="1332" height="143" key="GridCell.Tab.2.left" timestamp="1640941062500">
+      <screen x="0" y="24" width="1920" height="1056" />
+    </state>
+    <state width="1332" height="143" key="GridCell.Tab.2.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1640939475861" />
+    <state width="1332" height="143" key="GridCell.Tab.2.left/0.24.1920.1056/1920.0.1920.1080@0.24.1920.1056" timestamp="1640941062500" />
+    <state width="1387" height="180" key="GridCell.Tab.2.left/0.24.1920.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1640699910934" />
+    <state width="1332" height="143" key="GridCell.Tab.2.left/0.24.1920.1056@0.24.1920.1056" timestamp="1640935919313" />
+    <state width="1332" height="143" key="GridCell.Tab.2.right" timestamp="1640941062501">
+      <screen x="0" y="24" width="1920" height="1056" />
+    </state>
+    <state width="1332" height="143" key="GridCell.Tab.2.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1640939475861" />
+    <state width="1332" height="143" key="GridCell.Tab.2.right/0.24.1920.1056/1920.0.1920.1080@0.24.1920.1056" timestamp="1640941062501" />
+    <state width="1387" height="180" key="GridCell.Tab.2.right/0.24.1920.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1640699910934" />
+    <state width="1332" height="143" key="GridCell.Tab.2.right/0.24.1920.1056@0.24.1920.1056" timestamp="1640935919313" />
+    <state width="1622" height="153" key="GridCell.Tab.3.bottom" timestamp="1640759723407">
+      <screen x="0" y="24" width="1920" height="1056" />
+    </state>
+    <state width="1387" height="180" key="GridCell.Tab.3.bottom/0.24.1920.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1640699910934" />
+    <state width="1622" height="153" key="GridCell.Tab.3.bottom/0.24.1920.1056@0.24.1920.1056" timestamp="1640759723407" />
+    <state width="1622" height="153" key="GridCell.Tab.3.center" timestamp="1640759723407">
+      <screen x="0" y="24" width="1920" height="1056" />
+    </state>
+    <state width="1387" height="180" key="GridCell.Tab.3.center/0.24.1920.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1640699910934" />
+    <state width="1622" height="153" key="GridCell.Tab.3.center/0.24.1920.1056@0.24.1920.1056" timestamp="1640759723407" />
+    <state width="1622" height="153" key="GridCell.Tab.3.left" timestamp="1640759723407">
+      <screen x="0" y="24" width="1920" height="1056" />
+    </state>
+    <state width="1387" height="180" key="GridCell.Tab.3.left/0.24.1920.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1640699910934" />
+    <state width="1622" height="153" key="GridCell.Tab.3.left/0.24.1920.1056@0.24.1920.1056" timestamp="1640759723407" />
+    <state width="1622" height="153" key="GridCell.Tab.3.right" timestamp="1640759723407">
+      <screen x="0" y="24" width="1920" height="1056" />
+    </state>
+    <state width="1387" height="180" key="GridCell.Tab.3.right/0.24.1920.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1640699910934" />
+    <state width="1622" height="153" key="GridCell.Tab.3.right/0.24.1920.1056@0.24.1920.1056" timestamp="1640759723407" />
+    <state x="341" y="111" key="SettingsEditor" timestamp="1641282143589">
+      <screen x="0" y="24" width="1920" height="1056" />
+    </state>
+    <state x="179" y="54" key="SettingsEditor/0.24.1920.1056/1920.0.1920.1080@0.24.1920.1056" timestamp="1640916230606" />
+    <state x="2435" y="87" key="SettingsEditor/0.24.1920.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1640691451951" />
+    <state x="341" y="111" key="SettingsEditor/0.24.1920.1056@0.24.1920.1056" timestamp="1641282143589" />
+    <state x="440" y="152" key="com.intellij.javaee.view.ServerArtifactsDialog" timestamp="1640155024768">
+      <screen x="0" y="24" width="1920" height="1056" />
+    </state>
+    <state x="440" y="152" key="com.intellij.javaee.view.ServerArtifactsDialog/0.24.1920.1056@0.24.1920.1056" timestamp="1640155024768" />
+    <state x="502" y="288" width="915" height="641" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1640741555514">
+      <screen x="0" y="24" width="1920" height="1056" />
+    </state>
+    <state x="502" y="288" width="915" height="641" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.24.1920.1056@0.24.1920.1056" timestamp="1640741555514" />
+    <state x="2411" y="213" width="1303" height="686" key="dock-window-1" timestamp="1640698856194">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2411" y="213" width="1303" height="686" key="dock-window-1/0.24.1920.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1640698856194" />
+    <state x="638" y="254" key="run.anything.popup" timestamp="1640311848582">
+      <screen x="0" y="24" width="1920" height="1056" />
+    </state>
+    <state x="638" y="254" key="run.anything.popup/0.24.1920.1056@0.24.1920.1056" timestamp="1640311848582" />
+    <state x="793" y="306" width="672" height="663" key="search.everywhere.popup" timestamp="1640744574793">
+      <screen x="0" y="24" width="1920" height="1056" />
+    </state>
+    <state x="2713" y="288" width="672" height="678" key="search.everywhere.popup/0.24.1920.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1640697736163" />
+    <state x="793" y="306" width="672" height="663" key="search.everywhere.popup/0.24.1920.1056@0.24.1920.1056" timestamp="1640744574793" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/dao/impl/IOrderDaoImpl.java</url>
+          <line>201</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/controller/LoginServlet.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

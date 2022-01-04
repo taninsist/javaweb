@@ -1,0 +1,77 @@
+@import url("./reset.css");
+
+
+html,body{
+  background-color: #d2d6de;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.container{
+  overflow: hidden;
+  height: 100%;
+}
+
+header{
+  display: flex;
+  align-items: center;
+}
+
+header h4{
+  margin-left:40px ;
+  color: #e1d9d9;
+}
+
+#login{
+  position: relative;
+  top: 40%;
+  margin-top: -220px;
+}
+#login form{
+  width: 350px;
+  padding: 70px 40px 50px;
+  background: #fff;
+  top: 50%;
+}
+#login h2{
+  margin-bottom: 20px;
+}
+
+#login .authCode{
+  width: 90px;
+  position: relative;
+  z-index: 2;
+  float: left;
+  margin-bottom: 0;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+}
+#login .authCode:focus{
+  border-color: #66afe9;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 8px rgb(102 175 233 / 60%);
+  box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 8px rgb(102 175 233 / 60%);
+}
+
+#login .rigister{
+  margin-top: 10px;
+}
+
+#login .btn{
+  width: 200px;
+}
+#login .codeImg{
+  float: right;
+}
+
+/*编辑页面的css*/
